@@ -29,9 +29,10 @@ export const Button = styled("button", {
       primary: {
         background: "$brand1",
         borderColor: "$brand1",
-        color: "$whiteFixed",
+        color: "$black",
         "&:hover": {
           backgroundColor: "$brand2",
+          color: "$whiteFixed",
           borderColor: "$brand2",
         },
         "@mobile": {
@@ -112,26 +113,6 @@ export const Button = styled("button", {
         minHeight: "2.75rem",
         ["& + a"]: {
           marginLeft: "$2",
-        },
-        ["&.instagram"]: {
-          backgroundColor: "$socialInstagram",
-          borderColor: "$socialInstagram",
-          color: "$whiteFixed",
-          "&:hover": {
-            backgroundColor: "transparent",
-            borderColor: "$socialInstagram",
-            color: "$socialInstagram",
-          },
-        },
-        ["&.facebook"]: {
-          backgroundColor: "$socialFacebook",
-          borderColor: "$socialFacebook",
-          color: "$whiteFixed",
-          "&:hover": {
-            backgroundColor: "transparent",
-            borderColor: "$socialFacebook",
-            color: "$socialFacebook",
-          },
         },
         ["&.linkedin"]: {
           backgroundColor: "$socialLinkedin",
