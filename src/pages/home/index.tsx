@@ -37,36 +37,34 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Flex>
-              <UserImage
+              {/*  <UserImage
                 src={`https://github.com/${userData.githubUser}.png`}
                 alt={userData.nameUser}
                 title={userData.nameUser}
                 width={"48px"}
                 height={"48px"}
-              />
+              /> */}
               <Text color="grey4">Hey, Welcome! I am {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-              I{" "}
+              Web{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                development
               </Text>{" "}
-              creating and{" "}
+              is my{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                passion
               </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Discover here all my projects and technologies
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
                 See Projects
               </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+              <Button as="a" type="outline" href="#techs">
+                Check the techs I am familiar with
               </Button>
               <Button
                 color="grey5"
@@ -79,7 +77,7 @@ export const Home = (): JSX.Element => {
                 <FaGithub />
               </Button>
             </HeaderButtonsArea>
-            <StackCards>
+            <StackCards id="techs">
               {stackData.map((stack, index) => (
                 <Stack key={index} title={stack.title} icon={stack.img} />
               ))}

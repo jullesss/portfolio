@@ -33,9 +33,8 @@ export const Contacts = () => {
               <Text type="heading2" color="grey4">
                 Let's talk and{" "}
                 <Text as="span" type="heading2" color="brand1">
-                  develop solutions for your company
+                  develop solutions for your company!
                 </Text>
-                , together!
               </Text>
             </ContactSectionText>
           </motion.div>
@@ -49,8 +48,7 @@ export const Contacts = () => {
                   My Whatsapp
                 </Text>
                 <Text color="grey2" type="body2">
-                  I'm available for a voice chat, let's about creativity
-                  together?
+                  I'm available for a voice chat, let's talk?
                 </Text>
                 <Text
                   as="a"
@@ -70,10 +68,11 @@ export const Contacts = () => {
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
-                  My email
+                  My Email
                 </Text>
                 <Text color="grey2" type="body2">
-                  Send me an email reporting feedbacks, suggestions and ideas
+                  Send me an email reporting feedbacks, suggestions, invites,
+                  etc
                 </Text>
 
                 <Text

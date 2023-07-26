@@ -23,7 +23,7 @@ export interface MenuButtonOpen {
 export const NavBar = (): JSX.Element => {
   const isWide = useMedia({ maxWidth: "991px" });
 
-  document.title = userData.nameUser;
+  document.title = `Dev ${userData.nameUser}`;
 
   const [open, setOpen] = useState(false);
 
@@ -36,7 +36,7 @@ export const NavBar = (): JSX.Element => {
       <Container>
         <NavbarMobileArea>
           <LogoTipo>
-            <LogoTipoText>{userData.nameUser}</LogoTipoText>
+            <LogoTipoText>{`${userData.nameUser} (they/them)`}</LogoTipoText>
           </LogoTipo>
           {isWide && (
             <Button
@@ -67,7 +67,7 @@ export const NavLinks = (): JSX.Element => {
         Contact
       </Button>
       <Button type="btLink" as="a" color="grey4" href={`#blog`}>
-        Blog
+        About
       </Button>
     </NavbarLinks>
   );

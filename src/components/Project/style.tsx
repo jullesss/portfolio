@@ -53,7 +53,7 @@ export const Project = styled("article", {
       },
 
       "&::before": {
-        content: 'New',
+        content: "New",
         position: "absolute",
         top: "5px",
         right: "-4rem",
@@ -63,8 +63,8 @@ export const Project = styled("article", {
         padding: "0px 8px",
         borderRadius: "var(--radii-1)",
         fontSize: "14px",
-        color: "var(--colors-whiteFixed)",
-        fontWeight: "400",
+        color: "$grey0",
+        fontWeight: "500",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
