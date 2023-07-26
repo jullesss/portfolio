@@ -63,8 +63,8 @@ export const Home = (): JSX.Element => {
               <Button as="a" type="primary" href="#projects">
                 See Projects
               </Button>
-              <Button as="a" type="outline" href="#techs">
-                Check the techs I am familiar with
+              <Button as="a" type="outline" href="#contact">
+                Let's talk!
               </Button>
               <Button
                 color="grey5"

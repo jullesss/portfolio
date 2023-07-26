@@ -48,7 +48,7 @@ export const Contacts = () => {
                   My Whatsapp
                 </Text>
                 <Text color="grey2" type="body2">
-                  I'm available for a voice chat, let's talk?
+                  I'm available for messages or voice chat
                 </Text>
                 <Text
                   as="a"
@@ -71,8 +71,7 @@ export const Contacts = () => {
                   My Email
                 </Text>
                 <Text color="grey2" type="body2">
-                  Send me an email reporting feedbacks, suggestions, invites,
-                  etc
+                  Send me an email reporting feedbacks, sending invites, etc
                 </Text>
 
                 <Text
@@ -98,7 +97,7 @@ export const Contacts = () => {
                   My LinkedIn
                 </Text>
                 <Text color="grey2" type="body2">
-                  We can create more constant interactions as well as a sharing
+                  We can create more constant interactions as well as sharing
                   network
                 </Text>
                 <Text

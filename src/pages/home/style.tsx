@@ -79,10 +79,10 @@ export const StackSection = styled("div", {
 export const StackCards = styled("div", {
   display: "grid",
   gridTemplateColumns: "1fr 1fr 1fr 1fr",
-  padding: "6rem 0 1rem",
+  padding: "3rem 0 0",
   gap: "6rem",
-  marginTop: "5rem",
-
+  /*   marginTop: "5rem",
+   */
   "@tablet": {
     gridTemplateColumns: "1fr 1fr 1fr",
   },
